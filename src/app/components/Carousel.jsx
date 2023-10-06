@@ -3,8 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function Carousel() {
-  //Right arrow function for carousel
+function Carousel({ images }) {
+  if (!images || images.length === 0) {
+    return null; // or display a message or placeholder
+  }
 
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -16,8 +18,6 @@ function Carousel() {
       />
     );
   }
-
-  //Left arrow function for carousel
 
   function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
@@ -33,7 +33,8 @@ function Carousel() {
   var carouselSettings = {
     infinite: true,
     speed: 300,
-    slidesToShow: 4,
+    dots: true,
+    slidesToShow: 1,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
@@ -41,10 +42,16 @@ function Carousel() {
 
   return (
     <>
-      <Slider>
-        <h1>1</h1>
-        <h1>2</h1>
-        <h1>3</h1>
+      <Slider {...carouselSettings}>
+        {images.map((image, index) => (
+          <div key={index}>
+            <img
+              className="border-2 border-gray-900 rounded-lg   w-[439px] h-[256px]"
+              src={image.src}
+              alt={image.alt}
+            />
+          </div>
+        ))}
       </Slider>
     </>
   );
