@@ -3,7 +3,7 @@ import TeamMember from "./TeamMember";
 
 function Team() {
   return (
-    <section className="bg-orange-400">
+    <section className="bg-[#F35927]">
       <div className="container px-5 py-24 mx-auto ">
         <div className=" flex flex-col text-center  mb-20">
           <h1 className="sm:text-6xl text-4xl font-medium title-font mb-4 text-gray-900">

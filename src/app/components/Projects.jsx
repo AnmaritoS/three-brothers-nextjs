@@ -8,20 +8,18 @@ function Projects() {
     { src: "/topview.jpg", alt: "Image 1" },
     { src: "/blackbear1.jpeg", alt: "Image 2" },
     { src: "/blackbear2.jpeg", alt: "Image 3" },
-    { src: "/tabak.jpg", alt: "Image 4" },
   ];
 
   const carouselArray2 = [
-    { src: "/beano's.jpg", alt: "Image 1" },
-    { src: "/shawermer1.jpeg", alt: "Image 2" },
-    { src: "/cafemilano.jpg", alt: "Image 3" },
-    { src: "/cafemilano2.jpg", alt: "Image 4" },
+    { src: "/tabak.jpg", alt: "Image 1" },
+    { src: "/cafemilano.jpg", alt: "Image 2" },
+    { src: "/cafemilano2.jpg", alt: "Image 3" },
   ];
 
   const carouselArray3 = [
-    { src: "/blackbear1.jpeg", alt: "Image 2" },
-    { src: "/blackbear2.jpeg", alt: "Image 3" },
-    { src: "/tabak.jpg", alt: "Image 4" },
+    { src: "/shawermer1.jpeg", alt: "Image 1" },
+    { src: "/nilegate1.jpeg", alt: "Image 2" },
+    { src: "/nilegate3.jpeg", alt: "Image 3" },
   ];
   return (
     <section id="projects" className="text-gray-600 body-font">

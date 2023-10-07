@@ -2,12 +2,10 @@ import React from "react";
 
 function Specialities() {
   return (
-    <section id="specialties" className="text-black bg-orange-400">
-      <div className="container px-5 py-24 mx-auto flex flex-wrap">
+    <section id="specialties" className="text-black font-semibold bg-[#F35927]">
+      <div className="container px-5 py-24 mx-auto flex flex-col">
         <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-          <h1 className="sm:text-6xl text-4xl font-medium title-font mb-2 text-black">
-            بما نتميز
-          </h1>
+          <h1 className="sm:text-6xl text-4xl mb-2 ">بما نتميز</h1>
         </div>
         <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
           <div className="h-full w-6 absolute inset-y-0 right-0 flex items-center justify-center">
@@ -15,9 +13,7 @@ function Specialities() {
           </div>
           <div className="flex-grow md:pr-8 pr-6 flex sm:items-center items-end flex-col-reverse sm:flex-row">
             <div className="flex-grow text-right sm:pr-6 mt-6 sm:mt-0">
-              <h2 className="font-medium title-font text-white mb-1 text-2xl">
-                رئيس مجلسنا
-              </h2>
+              <h2 className="mb-1 text-3xl">رئيس مجلسنا</h2>
               <p className="leading-relaxed text-2xl">
                 تتميز شركتنا بان رئيس مجلس إدارتنا عضو في المنشآت السياحيه وعضو
                 نقابه سياحيين
@@ -42,7 +38,7 @@ function Specialities() {
               </svg>
             </div>
           </div>
-          <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-white text-orange1 relative z-10 title-font font-extrabold text-sm">
+          <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-white text-orange1 relative z-10  font-extrabold text-sm">
             1
           </div>
         </div>
@@ -52,9 +48,7 @@ function Specialities() {
           </div>
           <div className="flex-grow md:pr-8 pr-6 flex sm:items-center items-end flex-col-reverse sm:flex-row">
             <div className="flex-grow sm:pr-6 mt-6 sm:mt-0 text-right">
-              <h2 className="font-medium title-font text-white mb-1 text-2xl">
-                الخبرة
-              </h2>
+              <h2 className="   mb-1 text-3xl">الخبرة</h2>
               <p className="leading-relaxed text-2xl">
                 رئيس مجلس إدارتنا والمدير الإداري للشركه يعملون في هذا المجال من
                 عام ٩٨ مما اكتسب لديهم الخبرة الكافية في هذا المجال
@@ -79,7 +73,7 @@ function Specialities() {
               </svg>
             </div>
           </div>
-          <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-white text-orange1 relative z-10 title-font font-extrabold text-sm">
+          <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-white text-orange1 relative z-10  font-extrabold text-sm">
             2
           </div>
         </div>
@@ -89,9 +83,7 @@ function Specialities() {
           </div>
           <div className="flex-grow md:pr-8 pr-6 flex sm:items-center items-end flex-col-reverse sm:flex-row">
             <div className="flex-grow sm:pr-6 mt-6 sm:mt-0 text-right">
-              <h2 className="font-medium title-font text-white mb-1 text-2xl">
-                الصحه والسلامه
-              </h2>
+              <h2 className="   mb-1 text-3xl">الصحه والسلامه</h2>
               <p className="leading-relaxed text-2xl">
                 نحن نناسب مواصفات الصحه والسلامه والمواصفات الخاصه بالمنشأت
                 السياحيه
@@ -117,7 +109,7 @@ function Specialities() {
               </svg>
             </div>
           </div>
-          <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-white text-orange1 relative z-10 title-font font-extrabold text-sm">
+          <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-white text-orange1 relative z-10  font-extrabold text-sm">
             3
           </div>
         </div>
@@ -127,9 +119,7 @@ function Specialities() {
           </div>
           <div className="flex-grow md:pr-8 pr-6 flex sm:items-center items-end flex-col-reverse sm:flex-row">
             <div className="flex-grow sm:pr-6 mt-6 sm:mt-0 text-right">
-              <h2 className="font-medium title-font text-white mb-1 text-2xl">
-                امتيازاتنا
-              </h2>
+              <h2 className="   mb-1 text-3xl">امتيازاتنا</h2>
               <p className="leading-relaxed text-2xl">
                 وهذه الامتيازات تسهل عمليه اقامه وتشغيل وتوفير الديكورات للمشروع
                 بكل دقه
@@ -155,7 +145,7 @@ function Specialities() {
               </svg>
             </div>
           </div>
-          <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-white text-orange1 relative z-10 title-font font-extrabold text-sm">
+          <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-white text-orange1 relative z-10  font-extrabold text-sm">
             4
           </div>
         </div>

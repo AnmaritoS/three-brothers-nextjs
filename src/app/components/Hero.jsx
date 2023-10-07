@@ -3,48 +3,126 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="flex justify-center items-center bg-orange-400 "
+      className="w-1/2 pt-32 pb-24 flex justify-center items-center font-semibold"
     >
-      <div className="flex flex-row justify-between md:items-center items-center text-center">
-        <img className="w-[20vw]" src="/3broslogo-text.png" alt="" />
+      <div className="flex justify-between flex-col items-center text-center space-y-5 px-10">
+        <img className="w-[30vw]" src="/3broslogo-text.png" alt="" />
+        <p class="leading-relaxed text-2xl font-semibold">
+          المعادي كورنيش المعادي - أبراج عثمان الدور ٢٢
+        </p>
+        <p class="mb-4 leading-relaxed text-2xl font-semibold">
+          01201273732<span class="lg:visible md:invisible sm:visible"> - </span>
+          01067765621
+        </p>
+        <div className="flex sm:flex-wrap flex-col md:flex-row md:flex-nowrap -m-4 text-center">
+          <div className="xl:w-1/2 md:w-1/2 p-4">
+            <div className="border border-black p-6 rounded-lg">
+              <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#FBD0C2] text-orange1 mb-4">
+                <svg
+                  className="h-10 w-10"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+              <h2 className="text-2xl text-gray-900 font-bold title-font mb-2">
+                وصف الفريق
+              </h2>
+              <p className="leading-relaxed text-2xl">
+                يجمع الفريق مدرين التشغيل ومدربين وفريق العمل الخاص بالتشغيل
+                والذي يعمل باعلي مستوي مع فريق متميز من مهندسي الديكور المتخصصين
+                في هذا المجال
+              </p>
+            </div>
+          </div>
 
-        <img className="w-[40vw]" src="/diamondShapePics.png" alt="" />
-        <div className="text-center xl:text-2xl md:text-lg">
-          <p className="leading-relaxed  font-semibold">
-            المعادي
-            <br />
-            <span className="text-[#F25A28]">كورنيش المعادي </span>
-            - أبراج عثمان
-            <br />
-            الدور <span className="text-[#F25A28]">٢٢</span>
-          </p>
-          <p className=" mb-4 leading-relaxed  font-semibold underline underline-offset-8 decoration-[#F25A28]">
-            01201273732
-            <span className=" lg:visible md:invisible sm:visible"> - </span>
-            <span className="text-[#F25A28]">01067765621</span>
-          </p>
-          <div className="flex justify-center space-x-3">
-            <a href="https://www.facebook.com/3brothersegyp" target="_blank">
-              <img className="w-[70px]" src="/facebook.svg" alt="" />
-            </a>
-            <a
-              href="https://api.whatsapp.com/send?phone=201067765621"
-              target="_blank"
-            >
-              <svg
-                className="w-[60px] mx-auto"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 448 512"
-              >
-                <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
-              </svg>
-            </a>
+          <div className="xl:w-1/2 md:w-1/2 p-4">
+            <div className="border border-black p-6 rounded-lg">
+              <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#FBD0C2] text-orange1 mb-4">
+                <svg
+                  className="h-10 w-10"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" />
+                  <circle cx="7" cy="17" r="2" />
+                  <circle cx="17" cy="17" r="2" />
+                  <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
+                  <line x1="3" y1="9" x2="7" y2="9" />
+                </svg>
+              </div>
+              <h2 className="text-2xl text-gray-900 font-bold title-font mb-2">
+                الخدمه
+              </h2>
+              <p className="leading-relaxed text-2xl">
+                نستخدم افضل الاسس العلميه الممكنه وبايدي عاملة مدربة ومتميزة
+                وبافضل الخامات, نقدم افضل الخدمات في هذا المجال ايمانا منا بحركة
+                التطور السريع الموجودة بالسوق المصري حالي
+              </p>
+            </div>
           </div>
-          <div className="flex justify-center">
-            <button className="inline-flex text-white bg-black py-2 px-6 focus:outline-none hover:bg-gray-700 rounded-full text-lg ">
-              Contact Us
-            </button>
+
+          <div className="xl:w-1/2 md:w-1/2 p-4">
+            <div className="border border-black p-6 rounded-lg">
+              <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#FBD0C2] text-orange1 mb-4">
+                <svg
+                  className="h-10 w-10"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" />
+                  <path d="M7 12l5 5l10 -10" />
+                  <path d="M2 12l5 5m5 -5l5 -5" />
+                </svg>
+              </div>
+              <h2 className="text-2xl text-gray-900 font-bold title-font mb-2">
+                سبب الانشاء
+              </h2>
+              <p className="leading-relaxed text-2xl">
+                تأسسنا في عام ٢٠٢٠ و تم إنشاء هذه الشركه بعد التوسع الخيالي الذي
+                شهده السوق المصري في هذا المجال مما الهم فريق العمل بالعديد من
+                االفكار والتطلعات لتقديمها في هذا المجال
+              </p>
+            </div>
           </div>
+        </div>
+
+        <div className="flex justify-center ">
+          <a href="https://www.facebook.com/3brothersegyp" target="_blank">
+            <img className="w-[70px]" src="/facebook.svg" alt="" />
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=201067765621"
+            target="_blank"
+          >
+            <img className="w-[70px]" src="/whatsapp.svg" alt="" />
+          </a>
+          <a
+            href="https://www.google.com/maps/place/Abrag+Othman,+Maadi,+Cairo+Governorate,+Egypt/data=!4m2!3m1!1s0x145847ec730f01ad:0xb2032d34cfd16206?sa=X&ved=2ahUKEwjh6NvQiOOBAxXQl4kEHe5sBdIQ8gF6BAgMEAA&ved=2ahUKEwjh6NvQiOOBAxXQl4kEHe5sBdIQ8gF6BAgUEAI"
+            target="_blank"
+          >
+            <img className="w-[70px]" src="/google-maps.svg" alt="" />
+          </a>
         </div>
       </div>
     </section>
