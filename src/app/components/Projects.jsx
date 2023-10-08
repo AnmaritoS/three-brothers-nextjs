@@ -29,18 +29,15 @@ function Projects() {
             <h1 className="sm:text-6xl text-4xl font-medium title-font mb-4 text-gray-900">
               اعمال متنوعة
             </h1>
-            <div className="flex mt-6 justify-center">
-              <div className="w-16 h-1 rounded-full bg-orange1 inline-flex"></div>
-            </div>
           </div>
           <div className="flex flex-wrap justify-center items-center sm:-m-4 -mx-4 -mb-10 -mt-4">
-            <div className="w-[439px] mb-10 mx-auto">
+            <div className="xl:w-[445.35px] xl:h-[255.99px] lg:w-[452px] lg:h-[256px] md:w-[348px] md:h-[256px] sm:w-[440px] sm:h-[256px] w-[350px] h-[203px] mb-10 mx-auto">
               <Carousel images={carouselArray1} />
             </div>
-            <div className="w-[439px] mb-10 mx-auto">
+            <div className="xl:w-[445.35px] xl:h-[255.99px] lg:w-[452px] lg:h-[256px] md:w-[348px] md:h-[256px] sm:w-[440px] sm:h-[256px] w-[350px] h-[203px] mb-10 mx-auto">
               <Carousel images={carouselArray2} />
             </div>
-            <div className="w-[439px] mb-10 mx-auto">
+            <div className="xl:w-[445.35px] xl:h-[255.99px] lg:w-[452px] lg:h-[256px] md:w-[348px] md:h-[256px] sm:w-[440px] sm:h-[256px] w-[350px] h-[203px] mb-10 mx-auto">
               <Carousel images={carouselArray3} />
             </div>
           </div>

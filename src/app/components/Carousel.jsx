@@ -46,7 +46,7 @@ function Carousel({ images }) {
         {images.map((image, index) => (
           <div key={index}>
             <img
-              className="border-2 border-gray-900 rounded-lg   w-[439px] h-[256px]"
+              className="border-2 xl:w-[445.35px] xl:h-[255.99px] lg:w-[452px] lg:h-[256px] md:w-[348px] md:h-[256px] sm:w-[440px] sm:h-[256px] w-[350px] h-[203px] border-gray-900 rounded-lg "
               src={image.src}
               alt={image.alt}
             />

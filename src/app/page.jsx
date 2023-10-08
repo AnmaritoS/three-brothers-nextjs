@@ -11,13 +11,11 @@ import Team from "./components/Team";
 export default function Home() {
   return (
     <main>
-      <div className=" bg-[url('/coffeebg.png')] bg-cover">
-        {/* <Header /> */}
+      <div className=" bg-[url('/coffeebg.png')] bg-cover bg-right bg-no-repeat flex justify-center items-center">
         <Hero />
-        {/* <AboutUs /> */}
       </div>
       <Specialities />
-      <div className="bg-[url('/coffeebg2.png')] bg-cover flex flex-col justify-center items-start space-y-12 px-10 py-24">
+      <div className="bg-[url('/coffeebg2.png')] bg-cover bg-right bg-no-repeat flex flex-col justify-center items-center space-y-12 px-10 py-24">
         <Philosophy />
         <Services />
       </div>
