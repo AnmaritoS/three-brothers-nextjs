@@ -5,7 +5,7 @@ function Services() {
   return (
     <section id="services" className="w-[70vw] text-center">
       <h1 className="sm:text-6xl text-4xl font-medium title-font text-black mb-10 ">
-        <span className="bg-white bg-opacity-60 py-2 px-4 rounded-3xl border border-black">
+        <span className="bg-white bg-opacity-60 py-2 px-4 rounded-3xl border-2 border-black">
           خدماتنا
         </span>
       </h1>

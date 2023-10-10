@@ -2,7 +2,7 @@ import React from "react";
 
 function PhilosophyContainer({ title, description, svg }) {
   return (
-    <div className="p-4 md:w-1/3 w-full flex flex-col text-center items-center text-black bg-white bg-opacity-60 rounded-2xl border-black border ">
+    <div className="p-4 md:w-1/3 w-full flex flex-col text-center items-center text-black bg-white bg-opacity-60 rounded-2xl border-black border-2 ">
       <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-[#FBD0C2] text-orange1 mb-5 flex-shrink-0">
         {svg}
       </div>
