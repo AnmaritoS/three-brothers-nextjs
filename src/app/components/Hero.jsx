@@ -85,11 +85,12 @@ function Hero() {
             }
           />
         </div>
-        <p class="leading-relaxed text-2xl font-semibold bg-[#F35927] p-4 rounded-2xl border border-black">
+        <p className="leading-relaxed text-2xl font-semibold bg-[#F35927] p-4 rounded-2xl border border-black">
           المعادي كورنيش المعادي - أبراج عثمان الدور ٢٢
         </p>
-        <p class="mb-4 leading-relaxed text-2xl font-semibold bg-white p-4 rounded-2xl border border-black">
-          01201273732<span class="lg:visible md:invisible sm:visible"> - </span>
+        <p className="mb-4 leading-relaxed text-2xl font-semibold bg-white p-4 rounded-2xl border border-black">
+          01201273732
+          <span className="lg:visible md:invisible sm:visible"> - </span>
           01067765621
         </p>
 

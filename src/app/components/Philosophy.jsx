@@ -5,7 +5,7 @@ function Philosophy() {
   return (
     <section id="philosophy" className="w-[70vw]">
       <h1 className="sm:text-6xl text-4xl font-medium title-font text-black text-center mb-10 ">
-        <span className="bg-white bg-opacity-60 py-1 px-4 rounded-2xl border-4 border-black">
+        <span className="bg-white bg-opacity-60 py-2 px-4 rounded-3xl border border-black">
           فلسفتنا
         </span>
       </h1>
